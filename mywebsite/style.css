@@ -1,0 +1,196 @@
+#header-nav 
+{
+	/*text-align: left;*/
+	background-color: #8BC34A;
+	/*clear: left;*/
+	text-shadow: .5px .5px 1px #F57C00;
+	margin-top: 0px;
+	border-radius: 0px;
+}
+.navbar-brand h1 {
+	
+	font-family: "Oxygen" sans-serif;
+	color: #FF9800;
+	text-transform: uppercase;
+    line-height: .75;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+   clear: right;
+   /*padding-bottom: 20px;*/
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+ 
+.navbar-brand span
+{
+	font-family: 'Oxygen', sans-serif;
+	color: #FFD54F;
+	font-style: italic;
+	font-size: 1em; 
+    padding-top:  20px;
+    /*margin-top: 10px;*/
+    /*vertical-align: middle;*/
+   
+}
+.navbar{
+	border:0;
+}
+
+body
+{
+	background-color:#FFF3E0;
+	background-image: url('indiatrain.jpeg') no-repeat  ;
+}
+	
+	
+#link
+{
+     text-align: right;
+     float: right;
+     padding: 20px;
+     text-shadow: 1px 1px 1px #fff;
+     clear: left;
+     font-size: 1.5em;
+     font-weight: bold;
+     color: #FF9800;
+
+}
+button.navbar-toggle, span.icon-bar{
+	border: 1px solid  #FFD54F;
+}
+.navbar-default .navbar-toggle{
+	border-color: #FFD54F;
+}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
+	background-color: #AED581;
+}
+#nav-list{
+	text-align: center; 
+	background-color:#8BC34A;
+	margin: 0;
+	text-transform: uppercase;
+	color:#FF9800;
+	text-shadow: 0 0 0;
+	clear: both;
+
+}
+
+.navbar-nav .navbar-default>li{
+	border: 1px;
+	border-color:#fff;
+	padding-top: 0;*/
+}
+ .navbar-default .navbar-nav li>a
+ {
+	color:#FF9800;
+}
+
+.navbar-default>li:hover, .nav>li:hover{
+	background-color:#AED581; 
+}
+button.navbar-toggle{
+	clear:both;
+}
+.footer-panel{
+	background-color:#1B5E20;
+	color: #fff;
+	font-size:.8em;
+	margin-top: 20px;
+	margin-bottom: 0;
+	font-family: 'Oxygen' ,sans-serif;
+	padding-top: 15px;
+}
+.footer-panel .container>span{
+font-size: 1.5em;
+}
+.footer-panel .container>p{
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px;
+	font-size: .8em;
+}
+
+.slide-show.container{
+	max-width: 1000px;
+	max-height: 400px;
+	margin: auto;
+	position: relative; 
+}
+.slides{
+	display: none;
+}
+/*.fade{
+
+	animation-name: fade;
+	animation-duration: 2s;*/
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+img{
+	max-height: 400px;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*media queries*/
+@media (min-width: 1200px){
+	.container .jumbotron{
+		background: url('indiatrainbig.jpg') no-repeat;
+		border: 1px;
+		box-shadow: 0 0 20px  #424242;
+		height: 590px;
+		width: 1200px;
+		border-radius: 0;
+		align-content: center;
+	}
+}
+@media(min-width: 992px) and (max-width: 1199px){
+	.container .jumbotron{
+		background: url('indiatrainnewmedium.jpg') no-repeat;
+		width: 900px;
+		height: 500px;
+		border:1px;
+		border-radius: 0;
+		box-shadow: 0 0 20px  #424242;
+		
+	}
+}
+@media (min-width:768px) and (max-width: 991px)
+{
+	.container .jumbotron{
+		background: url('indiatrainmedium.jpg') no-repeat;
+		border: 1px;
+		border-radius: 0;
+		height:400px;
+		width:700px;
+		box-shadow: 0 0 20px  #424242;
+	}
+}
+@media (max-width: 767px){
+	.container .jumbotron{
+		padding: 0;
+	    padding-right: 0;
+	    padding-left: 0;
+	    box-shadow: 0 0 20px  #424242;
+	   
+	}
+	body{
+		align-content: center;
+		align-items: center;
+	}
+}
